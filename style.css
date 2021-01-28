@@ -22,6 +22,12 @@ body{
     color: rgb(255, 136, 0);
 }
 
+hr{
+    margin-left: 1000px;
+    margin-right: 1000px;
+    color: black;
+}
+
 /*Fin Corp de page*/
 
 /*Logo principal*/
@@ -247,9 +253,6 @@ nav li:hover .submenu{
 
 #contact1{
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-
 }
 
 #img-center{
@@ -264,6 +267,6 @@ nav li:hover .submenu{
 
 #recrutement{
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
 }
+
+/*Fin Page recrutement*/
