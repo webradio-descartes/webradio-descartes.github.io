@@ -16,6 +16,7 @@ body{
 
 #hy{
     color: #D01317;
+    text-decoration: none;
 }
 
 #hy:hover{
@@ -289,3 +290,26 @@ nav li:hover .submenu{
 
 
 /*Fin articles*/
+
+/*Page Team*/
+
+
+#profil{
+    float: left;
+}
+
+#text-profil{
+    margin-left: 125px;
+}
+
+#text-profil2{
+    color: #D01317;
+    margin-left: 125px;
+
+}
+
+#text-profil3{
+    margin-top: 30px;
+}
+
+/*Fin Page Team*/
