@@ -1,0 +1,8 @@
+ErrorDocument 404 404.html
+
+<Files sitemap.xml>
+AuthUserFile .htpasswd
+AuthName "Accès restreint"
+AuthType Basic
+require valid-user
+</Files>

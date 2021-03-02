@@ -1,5 +1,25 @@
 /*Corps de page*/
 
+html{
+    background-color: #2E2E2E;
+    color: #eeeeee;
+}
+
+.titre_page_rouge{
+    background-color: #D01317;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.titre_page{
+    background-color: #1d1d1d;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
 body{
     margin: 0px;
@@ -8,8 +28,8 @@ body{
 }
 
 #dev{
-    color: black;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: #2E2E2E;
     text-decoration: none;
     
 }
@@ -29,7 +49,7 @@ h1{
 
 #hy2{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 #hy2:hover{
@@ -220,11 +240,15 @@ nav li:hover .submenu{
 
 #footer{
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #48484B;
     color:  #ffffff;
     text-decoration: none;
     border-top: 5px solid #D01317;
     border-bottom: 2px solid black;
+}
+
+footer{
+    padding-top: 1%;
 }
 
 
@@ -238,28 +262,13 @@ nav li:hover .submenu{
 
 #photo{
     text-align: center;
-    background-color:rgb(170, 169, 169);
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    box-shadow: 1px 1px 3px rgb(128, 128, 128);
-    border-radius: 5px;
-    font-weight: bold;
-    width: 49%;
+    background-color: #252525;
+
 }
 
 #video{
     text-align: center;
-    background-color:rgb(170, 169, 169);
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    box-shadow: 1px 1px 3px rgb(128, 128, 128);
-    border-radius: 5px;
-    font-weight: bold;
-    width: 49%;
+    background-color:#252525;
 }
 
 
@@ -297,7 +306,7 @@ nav li:hover .submenu{
 }
 
 #article:hover{
-    background-color: rgb(235, 235, 235);
+    background-color: #222222;
 }
 
 
@@ -323,6 +332,12 @@ nav li:hover .submenu{
 #text-profil3{
     margin-top: 30px;
 }
+
+#text-profil4{
+    color: #ffffff;
+    margin-left: 125px;
+}
+
 
 /*Fin Page Team*/
 
@@ -353,6 +368,8 @@ nav li:hover .submenu{
 #webradio{
     text-align: center;
     padding: 20px;
+    color: #eeeeee;
+    background-color: #2E2E2E;
 }
 
 /*Fin Page Webradio*/
@@ -364,3 +381,50 @@ nav li:hover .submenu{
 }
 
 /*Fin Page photos*/
+
+@media (min-width: 1200px){
+
+    .bloc_page{
+        margin-left: 16%;
+        margin-right: 16%;
+        background-color: #252525;
+        border-radius: 5px;
+        padding-bottom: 0.1%;
+    }
+
+    .bouton_choix{
+        display: flex;
+        margin-left: 16%;
+        margin-right: 16%;
+        padding-bottom: 0.1%;
+    }
+
+}
+
+@media (max-width: 1199px){
+    .bloc_page{
+        padding-bottom: 0.1%;
+        background-color: #252525;
+    }
+
+    .bouton_choix{
+        text-align: center;
+        background-color: #252525;
+        border-radius: 5px;
+        padding-bottom: 0.1%;
+    }
+}
+
+.interieur_bloc_page{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.interieur_bloc_page p{
+    text-align: center;
+}
+
+.interieur_bloc_page p.notcenter{
+    text-align: initial;
+}
